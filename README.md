@@ -1,2 +1,4 @@
 LGN
 ===
+
+License Generator
