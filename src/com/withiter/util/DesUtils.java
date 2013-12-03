@@ -215,21 +215,4 @@ public class DesUtils {
         return key;
     }
 
-    /**
-     * main方法 。
-     * 
-     * @author cross
-     * @param args
-     */
-    public static void main(String[] args) {
-        try {
-            String test = "admin";
-            DesUtils des = new DesUtils("test");// 自定义密钥
-            System.out.println("加密前的字符：" + test);
-            System.out.println("加密后的字符：" + des.encrypt(test));
-            System.out.println("解密后的字符：" + des.decrypt(des.encrypt(test)));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 }
